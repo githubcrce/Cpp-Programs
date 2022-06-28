@@ -12,7 +12,7 @@ void swap(int *x, int *y){
 
 int main(){
     int a,b;
-    a =9;
+    a = 9;
     b = 10;
     swap(&a,&b);
     cout<<a<<":"<<b<<endl;
