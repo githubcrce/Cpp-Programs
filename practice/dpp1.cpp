@@ -1,6 +1,23 @@
 #include<iostream>
 using namespace std;
 
+
+class Encapsulation{
+private: 
+    string name;
+    int age;
+
+
+public:
+    void setName(string name){this->name = name;}
+    void setAge(int age){this->age = age;}
+    string getName(){return this->name;}
+    int getAge(){return this->age;}
+
+
+};
+
+
 class A{
 
 public:
@@ -86,5 +103,12 @@ int main(){
 
     v->display();
     v->move(12);
+
+    Encapsulation encapsulation;
+    encapsulation.setName("raj");
+    encapsulation.setAge(20);
+    cout<<encapsulation.getName()<<endl;
+    cout<<encapsulation.getAge()<<endl;
+
     return 1;
 }
