@@ -8,6 +8,6 @@ int main(){
     int *p = a;
     
     int **q = &p;
-    cout<<*q<<":"<<p<<":"<<&p<<endl;
+    cout<<*q<<":"<<p<<":"<<&p<<":"<<q<<endl;
     return 1;
 }

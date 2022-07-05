@@ -1,2 +1,2 @@
 
-    child(string name): parent(name){
+        this->age = age;

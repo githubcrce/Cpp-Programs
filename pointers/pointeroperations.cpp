@@ -12,5 +12,9 @@ int main(){
 
     //increment
     cout<<*(p+1)<<": "<<a[1]<<endl;
+
+    int* arr = new int[3];
+    arr[0] =10; 
+    cout<< arr[0];
     return 1;
 }

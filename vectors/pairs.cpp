@@ -15,13 +15,14 @@ int main(){
     int arr[] =  {10,9,11};
     int n =  (sizeof(arr)/sizeof(arr[0]));
     vector<pair<int,int>> v;
+    
     for(int i=0;i<3;i++){
         v.push_back(make_pair(arr[i],i));
     }
+
     for( auto num:v){
         cout<<num.first<<" "<<num.second<<endl;
     }
-
 
     sort(v.begin(),v.end(),customComparator);
 

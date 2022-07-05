@@ -13,6 +13,10 @@ public:
         this->name = name;
     }
     virtual void displayname()=0;//this is pure virtual function in java its abstract function
+
+    void talk(){
+        cout << name << endl;
+    }
 };
 
 
@@ -33,6 +37,7 @@ int main(){
     
     child child("raj");
     child.displayname();
+    child.talk();
     return 1;
 
 }
