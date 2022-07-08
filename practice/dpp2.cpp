@@ -24,7 +24,6 @@ int main(){
 
 
     int **q = &p;
-
-    cout << *(q)<<arr<<endl;
+    cout << *(q)<<" : "<<arr<<endl;
     return 1;
 }
