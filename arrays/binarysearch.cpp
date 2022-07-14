@@ -42,7 +42,7 @@ int main(){
     cout<<"enter key"<<endl;
     cin >> key;
 
-    int ind = binarySearch(a,n, key);
+    int ind = binarySearch(a,n,key);
 
     cout<<ind<<endl;
 

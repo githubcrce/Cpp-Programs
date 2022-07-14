@@ -29,7 +29,6 @@ int main(){
 
         sum += prod;
         temp = temp/10;
-
     }
 
 
@@ -39,5 +38,7 @@ int main(){
     else{
         cout<<"not armstrong"<<endl;
     }
+
+
     return 0;
 }
